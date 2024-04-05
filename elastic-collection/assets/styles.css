@@ -144,12 +144,17 @@ ul {
 @media (max-width: 600px) {
 
 	.filters {
+		margin-top: 4.5%;
 		flex-wrap: wrap;
 	}
 
 	.filter-item {
 		padding: 1vw 1.5vw;
 		font-size: Min(2.5vw, 16px);
+	}
+
+	ul {
+		gap: 2%;
 	}
 
 }
@@ -165,7 +170,12 @@ h1{
 h2{
 	width: 45vw;
 	font-size: 3%;
-	padding-bottom: 4%;
+	padding-bottom: -2%;
+}
+
+ul {
+	margin-top: 2.5%;
+	gap: 2%;
 }
 
 }

@@ -1,0 +1,60 @@
+body{
+    background-color: black;
+    margin-left: 10vw;
+    margin-right: 10vw;
+
+}
+
+
+h3:hover{
+    color: rgb(13, 13, 13);
+}
+
+h3{
+    color: #e49c9c;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: 5;
+    text-decoration: underline;
+    font-style: oblique;
+    margin-left: 38vw;
+    position: fixed;
+    margin-top: 75vh;
+}
+
+
+p{
+    color: #dfdcdc;
+    font-family: monospace;
+    font-size: 14px;
+    font-weight: 5;
+    line-height: 160%;
+    margin-right: 10vw;
+    margin-top: 10vh;
+
+}
+
+.p2{
+    margin-top: 4vh;
+}
+
+.p3{
+    margin-top: 4vh; 
+}
+
+.s1{
+    color: #3e3c3c;
+    font-weight: 700; 
+}
+
+.s1:hover{
+        font-weight: 1800; 
+        font-size: 400px;
+        font-style:initial;
+        color: #fe1313;
+        line-height: 360px;
+        transition: 0.5s;
+        margin-top: 180vh;
+        text-shadow: 2px 2px 10px #db2a0f;
+filter: dropshadow(color=#b20606, offx=100%, offy=200%);
+}

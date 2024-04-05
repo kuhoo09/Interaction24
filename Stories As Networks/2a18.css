@@ -1,0 +1,83 @@
+body{
+    background-color: black;
+   
+
+}
+
+
+h1{
+    font-size: 50px;
+    color:  rgb(0, 0, 0);
+    font-family: 'Times New Roman';
+    font-style: oblique;
+    margin-left: 20vw;
+    position: fixed;
+}
+
+h1:hover{
+    color: #ff9d9d;
+}
+
+
+.h3{
+    color: #000000;
+    font-family: monospace;
+    font-weight: 5;
+    margin-left: 59vw;
+    margin-top: 40vh;
+    position: fixed;
+}
+
+.h4{
+    color: #000000;
+    font-family: monospace;
+    font-weight: 5;
+    margin-left: 89vw;
+    margin-top: 60vh;
+    position: fixed;
+}
+
+.h5{
+    color: #000000;
+    font-family: monospace;
+    font-weight: 5;
+    position: fixed;
+    margin-top: 60vh;
+    margin-left: 0vw;
+}
+
+
+.h6{
+    color: #000000;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 5;
+    margin-top: 0vh;
+    margin-left: 80vw
+}
+
+
+H2{
+    color: #f9eded;
+    font-family: monospace;
+    font-weight: 5;
+    margin-left: 49vw;
+    margin-top: 50vh;
+    position: fixed;
+}
+
+
+H3{
+    color: #e49c9c;
+    font-family: monospace;
+    font-weight: 5;
+    text-decoration: underline;
+    margin-left: 43vw;
+    margin-right: auto;
+    margin-top: 80vh;
+    position: fixed;
+
+}
+
+h3:hover{
+    color: rgb(13, 13, 13);
+}

@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 100vh;
+}
+.heart{
+    position: fixed;
+    font-family: monospace;
+    color: rgb(65, 149, 252);
+    font-size: 1rem;
+    animation: fall 3s linear forwards;
+}
+
+.heart:hover{
+    color:  #e49c9c;
+text-decoration: underline;
+}
+
+@keyframes fall {
+    to{
+        transform: translateY(105vh);
+    }
+}
+
+h3{
+    position: fixed;
+    font-family: monospace;
+    color: rgb(65, 149, 252);
+    font-size: 1rem;
+    margin-top: 80vh;
+}
+
+h3:hover{
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}

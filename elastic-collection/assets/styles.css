@@ -1,0 +1,158 @@
+/* Just to make the demo easier to work with. */
+
+:root {
+	--spacing: 1em;
+}
+
+@font-face {
+    font-family: 'jetbrains';
+    src: url('jetbrains-mono/JetBrainsMono-Regular.woff2') format('woff');
+}
+
+body {
+	background-color: rgb(242, 234, 223);
+	font-weight: 100;
+	line-height: 1.2;
+	padding: 1.7%;
+}
+
+h1 {
+	color: rgb(52, 40, 40);
+	font-family: "kohinoor-bangla";
+	font-size: 300%;
+	font-weight: 800;
+}
+
+h2{
+	color: rgb(52, 40, 40);
+	font-family:  'jetbrains';
+	padding-top: 10px;
+	font-size: 100%;
+	font-weight: 300;
+}
+
+p{
+	font-family:'jetbrains';
+	font-weight: 200;
+}
+
+ul {
+	display: grid;
+	grid-template-columns: 3fr 3fr;
+	gap: calc(4 * var(--spacing));
+	margin-top: 45px;
+	list-style: none;
+}
+
+li {
+	display: flex;
+	flex-direction: column;
+	gap: var(--spacing);
+}
+
+summary {
+	cursor: pointer;
+}
+
+.list-item {
+	position: relative;
+	border: 1px solid  rgb(52, 40, 40);
+}
+
+.list-item-image {
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+}
+
+.list-item-content {
+	background-color: rgb(52, 40, 40);
+	color: rgb(244, 236, 236);
+	position: absolute;
+	padding: 25px 20px;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	gap: 10px;
+	flex-direction: column;
+	justify-content: center;
+	opacity: 0;
+	transition: opacity.2s;
+}
+
+.list-item.is-active .list-item-content {
+	opacity: 1;
+}
+
+.filters {
+	font-family: monospace;
+	width: 100%;
+	margin-top: 2.5%;
+	margin-left: 0px;
+	display: flex;
+	justify-content: right;
+	gap: 5px;
+}
+
+.filter-item {
+	border: 1px solid  rgb(52, 40, 40);
+	border-radius: 3px;
+	padding: 10px 15px;
+	transition: background-color .2s, color .2s;
+	cursor: pointer;
+}
+
+.filter-item:hover,
+.filter-item.is-active {
+	background-color: rgb(52, 40, 40);
+	color: white;
+}
+
+.is-hidden {
+	display: none;
+}
+
+@media (max-width: 970px) 
+{
+.list-item-content{
+	font-size: 12px;
+}
+}
+
+@media (max-width: 807px) 
+{
+.list-item-content{
+	font-size: 9px;
+}
+}
+
+@media (max-width: 677px) 
+{
+	ul {
+		grid-template-columns: 1fr;
+	}
+
+	.list-item-image {
+		object-fit: cover;
+		width: 100%;
+	}
+	.list-item-content{
+		font-size: 12px;
+	}
+}
+
+@media (max-width: 600px) {
+
+	.filters {
+		flex-wrap: wrap;
+	}
+
+	.filter-item {
+		padding: 1vw 1.5vw;
+		font-size: Min(3.5vw, 16px);
+	}
+
+}
+

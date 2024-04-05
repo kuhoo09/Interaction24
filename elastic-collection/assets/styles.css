@@ -40,7 +40,7 @@ ul {
 	display: grid;
 	grid-template-columns: 3fr 3fr;
 	gap: calc(4 * var(--spacing));
-	margin-top: 45px;
+	margin-top: 2%;
 	list-style: none;
 }
 
@@ -69,7 +69,9 @@ summary {
 	background-color: rgb(52, 40, 40);
 	color: rgb(244, 236, 236);
 	position: absolute;
-	padding: 25px 20px;
+	padding: 2vw 2.5vw;
+	font-size: 1.2vw;
+	line-height: 160%;
 	left: 0;
 	top: 0;
 	width: 100%;
@@ -116,32 +118,28 @@ summary {
 
 @media (max-width: 970px) 
 {
-.list-item-content{
-	font-size: 12px;
+
+h2{
+	padding-bottom: 5px;
+}
+h1{
+	padding-bottom: 5px;
 }
 }
 
-@media (max-width: 807px) 
+@media (max-width: 880px) 
 {
-.list-item-content{
-	font-size: 9px;
-}
-}
-
-@media (max-width: 677px) 
-{
-	ul {
+ul {
 		grid-template-columns: 1fr;
 	}
-
-	.list-item-image {
-		object-fit: cover;
-		width: 100%;
-	}
-	.list-item-content{
-		font-size: 12px;
-	}
+.list-item-content {
+	font-size: 2vw;
+	padding-left: 5vw;
+	padding-right: 5vw;
 }
+
+}
+
 
 @media (max-width: 600px) {
 
@@ -151,8 +149,21 @@ summary {
 
 	.filter-item {
 		padding: 1vw 1.5vw;
-		font-size: Min(3.5vw, 16px);
+		font-size: Min(2.5vw, 16px);
 	}
 
 }
 
+@media (max-width: 461px) {
+
+h1{
+	line-height: 40px;
+	padding-bottom: 5px;
+}
+
+h2{
+	font-size: 60%;
+	padding-bottom: 15px;
+}
+
+}

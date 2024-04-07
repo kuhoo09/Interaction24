@@ -153,8 +153,7 @@ ul {
 @media (max-width: 600px) {
 
 	.filters {
-		margin-top: 4.5%;
-		flex-wrap: wrap;
+		margin-top: 8%;		
 	}
 
 	.filter-item {

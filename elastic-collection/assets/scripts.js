@@ -4,12 +4,12 @@ const renderItems = (collection) => {
 		
 			const itemDetails =
 				`
-					<li id="${item.id}" class="list-item" data-country="${item.country}">
+					<li id="${item.id}" class="list-item" data-category="${item.category}">
 						<img src="${item.posterImage}" class="list-item-image">
 						<div class="list-item-content">
-							<p>📍 Name <span>${item.location}</span></p>
-							<p>📐 Category ${item.architect}</p>
-							<p>📐 Founder ${item.architect}</p>
+							<p>📍 Name <span>${item.name}</span></p>
+							<p>📐 Category ${item.category}</p>
+							<p>📐 Founder ${item.founder}</p>
 							<p>📖 ${item.description}</p>
 						</div>
 					</li>
@@ -36,13 +36,12 @@ const renderItems = (collection) => {
 
 			// add is-active to the latest/clicked button/filter
 			button.classList.add('is-active');
-			// const buttonCountry = item.dataset.country;
-			const buttonCountry = button.getAttribute("data-country"); 
+			const buttonCategory = button.getAttribute("data-category"); 
 			const buttonState = button.classList.contains('is-active'); // true (active) or false (inactive)
 			
 			// if we are toggling off a button OR (that's what || means) the All button is clicked…
 			// show all elements
-			if (buttonState == false || buttonCountry == 'All') {
+			if (buttonState == false || buttonCategory == 'All') {
 				const hiddenListItems = document.querySelectorAll('.list-item.is-hidden');
 				hiddenListItems.forEach(item => {
 					item.classList.remove('is-hidden');
@@ -51,7 +50,7 @@ const renderItems = (collection) => {
 			} else {
 				// go through each list item again, deciding if to show or hide it
 				listItems.forEach(item => {
-					if (item.dataset.country != buttonCountry) {
+					if (item.dataset.category != buttonCategory) {
 						item.classList.add('is-hidden')
 					} else {
 						item.classList.remove('is-hidden')

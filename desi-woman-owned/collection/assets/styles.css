@@ -175,6 +175,7 @@ h2{
 }
 	.filters {
 		margin-top: 8%;		
+		transform: none;
 	}
 
 	.filter-item {
@@ -186,6 +187,7 @@ h2{
 		margin-top: 5%;
 		row-gap: .2%;
 	}
+
 
 }
 

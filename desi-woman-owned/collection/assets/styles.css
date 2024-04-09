@@ -1,5 +1,9 @@
 /* Just to make the demo easier to work with. */
 
+::selection {
+    background-color: #b7745b; /* Change to your desired color */
+}
+
 :root {
 	--spacing: 1em;
 }
@@ -27,15 +31,7 @@ h1 {
 h1:hover{
 
 text-decoration: underline;
-	animation: shake 01s ease infinite; /* Adjust duration and timing function as needed */
-  }
-  
-  @keyframes shake {
-	0% { transform: translateX(0); }
-	25% { transform: translateX(-5px); }
-	50% { transform: translateX(5px); }
-	75% { transform: translateX(-5px); }
-	100% { transform: translateX(0); }
+transform: rotate(-2.5deg);
   }
 
   
@@ -65,6 +61,10 @@ li {
 	display: flex;
 	flex-direction: column;
 	gap: var(--spacing);
+}
+
+li:hover{
+	transform: rotate(-2.5deg);
 }
 
 summary {
@@ -128,18 +128,8 @@ summary {
 .filter-item.is-active {
 	background-color: rgb(52, 40, 40);
 	color: white;
-	
-			animation: shake 01s ease infinite; /* Adjust duration and timing function as needed */
-		  }
-		  
-		  @keyframes shake {
-			0% { transform: rotate(0); }
-			25% { transform: rotate(-25deg); }
-			50% { transform: rotate(50deg); }
-			75% { transform: rotate(-45deg); }
-			100% { transform: rotate(0); }
-		  }
-
+	transform: rotate(-10deg);
+}
 
 .is-hidden {
 	display: none;

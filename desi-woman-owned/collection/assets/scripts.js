@@ -7,9 +7,9 @@ const renderItems = (collection) => {
 					<li id="${item.id}" class="list-item" data-category="${item.category}">
 						<img src="${item.posterImage}" class="list-item-image">
 						<div class="list-item-content">
-							<p>📍 Name: <span>${item.name}</span></p>
-							<p>📐 Category: ${item.category}</p>
-							<p>📐 Founder: ${item.founder}</p>
+							<p>⭐️ Name: <span>${item.name}</span></p>
+							<p> 🗂 Category: ${item.category}</p>
+							<p>📌 Founder: ${item.founder}</p>
 							<p>📖 ${item.description}</p>
 							<p> ${item.url}</p>
 						</div>

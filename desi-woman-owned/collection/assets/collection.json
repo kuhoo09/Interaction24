@@ -1,0 +1,278 @@
+[
+	{
+		"id": "abacaxi",
+		"name": "abacaxi",
+		"category": "Fashion",
+		"description": "abacaxi garments make use of traditional textile techniques from India and around the world. Handloom weaving, mirrorwork beading, schiffli embroidery, and plant-dyeing are just a few of the processes involved in our productions.",
+		"founder": "Sheena Sood",
+		"url": "",
+		"posterImage": "assets/images/abacaxi.png"
+	},
+	{
+		"id": "Bodice",
+		"name": "Bodice",
+		"category": "Fashion",
+		"description": "Bodice is built on a foundation that idolizes a journey back to the fundamental.Their signature aesthetic is born out of careful deliberation and a childlike curiosity to explore the indigenous fabrics and time-honoured weaving traditions of India with a contemporary approach.\"",
+		"founder": "Ruchika Sachdeva",
+		"url": "",
+		"posterImage": "assets/images/bodice.png"
+	},
+	{
+		"id": "Brown-Girl-Magazine",
+		"name": "Brown Girl Magazine",
+		"category": "Design",
+		"description": "Brown Girl Magazine is a multimedia company based in New York City with global reach dedicated to South Asian self-expression, cultural anchoring, and dialogue. Through diverse, multimedia content and community building, we empower and engage those who identify as a part of the South Asian diaspora with a hyphenated identity.\"",
+		"founder": "Aditi Mehta",
+		"url": "",
+		"posterImage": "assets/images/browngirlmag.png"
+	},
+	{
+		"id":"Electronic-Arts",
+		"name":"Electronic Arts ",
+		"category":"Design",
+		"description":"They develop and deliver games, content, and online services for Internet-connected consoles, mobile devices, and personal computers. Through our cutting-edge games, innovative services, and powerful technologies, we bring worlds with infinite possibilities to nearly 600 million active players and fans around the globe.",
+		"founder":"Farah Ali",
+		"url":"https://www.ea.com",
+		"posterImage":"assets/images/electric arts.png"
+	},
+
+	{
+		"id":"Girls Who Code ",
+		"name":"Girls Who Code ",
+		"category":"STEM",
+		"description":"An international nonprofit organization that aims to support and increase the number of women in computer science. Among its programs are a summer immersion program, a specialized campus program, after-school clubs, a college club, College Loops, and a series of books.",
+		"founder":" Reshma Saujani ",
+		"url":"https://girlswhocode.com",
+		"posterImage":"assets/images/girlswhocode.png"
+	},
+
+	{
+		"id":"Gundi Studios",
+		"name":"Gundi Studios",
+		"category":"Fashion",
+		"description":"Gundi began in 2018 when founder Natasha Sumant decided it was time to build a clothing brand that would push for a new, more equitable industry. One that would bring the spotlight back on traditional techniques and prioritise the livelihoods of the women (and allied men) whose hands make the clothes that we love to wear.",
+		"founder":"Natasha Sumant",
+		"url":"https://www.gundistudios.com/",
+		"posterImage":"assets/images/gundi.png"
+	},
+
+	{
+		"id":"Haati Chai",
+		"name":"Haati Chai",
+		"category":"Fashion",
+		"description":"Haati Chai was established in 2011 from designer Stella Simona’s desire to fill a void for heirloom jewelry.  Inspired by a woman’s beauty and form, her designs incorporate hints of East meets West and pays homage to the past while constantly looking forward. ",
+		"founder":"Stella Simon",
+		"url":"https://haatichai.com/",
+		"posterImage":"assets/images/haatichai.png"
+	},
+
+	{
+		"id":"Holi Chic",
+		"name":"Holi Chic",
+		"category":"Fashion",
+		"description":"Growing up as a first generation Indian-American daughter of Immigrants in NYC, designer Megha Rao was constantly inspired by her vibrant Eastern & Western cultures. Not being able to find clothes that resonated with her in stores, Megha would mix and match outfits pulling from her mom's traditional closet and her own to create a sense of personal style. Rooted in culture and stimulated by the diaspora, holiCHIC honors the complexity of dual identities through clothing and storytelling.",
+		"founder":"Megha Rao & Pooja Desai Shah",
+		"url":"https://www.holichicbymegha.com/",
+		"posterImage":"assets/images/holiCHIC.png"
+	},
+
+	{
+		"id":"ImpactGuru.com",
+		"name":"ImpactGuru.com",
+		"category":"Social",
+		"description":"A crowdfunding website that helps patients who can’t afford their medical expenses. The company is now the first female-led crowdsourcing platform in India and has helped over 25,000 patients to change their lives with valuable medical funds.",
+		"founder":"MKhushboo Jain",
+		"url":"ImpactGuru.com",
+		"posterImage":"assets/images/impactguru.png"
+	},
+
+	{
+		"id":"Ketos",
+		"name":"Ketos",
+		"category":"Social",
+		"description":"Growing up with little access to clean water in India inspired Sankaran to start Ketos, a California-based startup that provides real-time testing of water quality and efficiency to prevent water crises. “If we don’t take care of such a very precious resource like water, we are not going to leave much for the generations ahead,” Sankaran says.",
+		"founder":"Meena Sankaran",
+		"url":"",
+		"posterImage":"assets/images/kenos.png"
+	},
+	
+	{
+		"id":"Kulfi",
+		"name":"Kulfi",
+		"category":"Fashion",
+		"description":"Kulfi creates clean beauty products tailored to diverse skin tones and concerns, taking the guesswork out of finding the perfect shade. Kulfi proudly supports organizations that provide access to mental health services addressing the unique challenges faced by South Asian communities. First south asian representation at Sephora.",
+		"founder":"Priyanka Ganjoo",
+		"url":"https://kulfibeauty.com/",
+		"posterImage":"assets/images/kulfi.png"
+	},
+
+	{
+		"id":"Manavi",
+		"name":"Manavi",
+		"category":"Social",
+		"description":"Founded in 1985, Manavi is the first organization in the United States dedicated to ending all forms of violence against South Asian survivors. Using a survivor-centered approach, Manavi provides culturally specific and linguistically appropriate services to South Asian survivors of gender-based violence.",
+		"founder":"Shamita Das Dasgupta, Radha Sarma Hegde, Shashi Jain, Rashmi Jaipal, Vibha Jha, & Kavery Dutta",
+		"url":"",
+		"posterImage":"assets/images/manavi.png"
+	},
+
+	{
+		"id":"Mango People Cosmetics",
+		"name":"Mango People Cosmetics",
+		"category":"Fashion",
+		"description":"After five years of research and hundreds of iterations later, Mango People was born. We are proud to offer a diverse range of shades where anyone can find the perfect product that accentuates their natural beauty, no matter the skin tone.  Whether light, tanned or dark toned, I hope everyone can find their perfect match at Mango People. ",
+		"founder":"Sravya Adusumilli",
+		"url":"https://mangopeopleofficial.com/",
+		"posterImage":"assets/images/mango.png"
+	},
+
+	{
+		"id":"Modi Toys",
+		"name":"Modi Toys",
+		"category":"Design",
+		"description":"They are a minority-led and a family-owned small business rooted in ancient Hindu traditions, powered by purpose and play. We help people of all ages stay connected to their Indian roots through our modern toys and books.",
+		"founder":"Avani Modi Sarkar",
+		"url":"https://www.moditoys.com/pages/about-us",
+		"posterImage":"assets/images/modi.png"
+	},
+
+	{
+		"id":"NeoFusion Creative Foundation",
+		"name":"NeoFusion Creative Foundation",
+		"category":"Social",
+		"description":"NeoFusion works towards the empowerment of the underprivileged communities, especially adolescents, school dropouts and the unemployed youth of India, empowering them to live their dream of being transformed and lead sustainable lives by aligning their passion and career choices.",
+		"founder":"Dr. Anubhooti Bhatnagar",
+		"url":"www.neofusioncreativefoundation.org",
+		"posterImage":"assets/images/nfc.png"
+	},
+
+	{
+		"id":"Neurocern",
+		"name":"Neurocern",
+		"category":"STEM",
+		"description":"A neuroinformatics and data analytics company that provides strategic and medical insights for enterprise clients. Neurocern’s data science team created a first to market proprietary digital dementia risk classification score for insurance and longevity risk modeling, highlighting new ways to estimate the cost of care, morbidity, and mortality of insureds living with cognitive impairment.",
+		"founder":"Dr. Anitha Rao",
+		"url":"",
+		"posterImage":"assets/images/neuro.png"
+	},
+
+	{
+		"id":"NorBlack NorWhite",
+		"name":"NorBlack NorWhite",
+		"category":"Fashion",
+		"description":"NorBlack NorWhite sprung from the seed of digging deeper into our roots. Raised in Toronto, we (Amrit and Mriga) made our way to Bombay in 2010 to understand where we came from and explore other ways of living. While surveying crafts, life in all lanes, and snacks from the streets, we discovered the foundations of what would eventually become NBNW--India's exceptional craftsmanship, an exploration of culture + our sweet, sweet FRIENDSHIP.",
+		"founder":"Mriga Kapadiya",
+		"url":"https://norblacknorwhite.com/",
+		"posterImage":"assets/images/nbnw.png"
+	},
+
+	{
+		"id":"PlayDate Digital",
+		"name":"PlayDate Digital",
+		"category":"STEM",
+		"description":"Having experienced the patriarchal culture in Pakistan, Kandawalla came to the United States fully prepared to take on a male-dominated industry: tech. She founded PlayDate Digital in 2012 and became boss to a team of experts who create educational apps for children.",
+		"founder":"Shaan Kandawalla",
+		"url":"",
+		"posterImage":"assets/images/playdate.png"
+	},
+
+	{
+		"id":"Proclaim",
+		"name":"Proclaim",
+		"category":"Fashion",
+		"description":"Proclaim is an inclusive nude lingerie line made in Los Angeles from earth-conscious fabrics.  We are founded on the principles that fashion should represent all women and can be made in a way that does good for people and the planet.  Proclaim is expanding the definition of nude, one ethically made bra at a time.",
+		"founder":"Shobha Philips",
+		"url":"https://www.wearproclaim.com/",
+		"posterImage":"assets/images/proclaim.png"
+	},
+
+	{
+		"id":"Ray + Keshavan Design Associates",
+		"name":"Ray + Keshavan Design Associates",
+		"category":"Design",
+		"description":"Provider of graphic designing services based in Bangalore, India. The company offers strategic brand identity programmes, trademark and logo designing, naming branding services and documentation for print and packaging of various consumer durables.",
+		"founder":"Sujata Keshavan",
+		"url":"",
+		"posterImage":"assets/images/rk.png"
+	},
+
+	{
+		"id":"Sakhi",
+		"name":"Sakhi",
+		"category":"Social",
+		"description":"Sakhi for South Asian Women’s mission is to represent the South Asian diaspora in a survivor-led movement for gender-justice and to honor the collective and inherent power of all survivors of violence.",
+		"founder":"Anannya Bhattacharjee, Mallika Dutt, Tula Goenka, Geetanjali Misra, & Romita Shetty",
+		"url":"",
+		"posterImage":"assets/images/Sakhi.png"
+	},
+
+	{
+		"id":"Sophia Yeshi",
+		"name":"Sophia Yeshi",
+		"category":"Design",
+		"description":"Sophia Yeshi is a queer Black & South Asian illustrator and graphic designer who uses her work to shine a light on Black women, women of color, and folks in the LGBTQIA+ community who are bold, dynamic, and demand attention. ",
+		"founder":"Sophia Yeshi",
+		"url":"https://www.yeshidesigns.com",
+		"posterImage":"assets/images/Sophia.png"
+	},
+
+	{
+		"id":"South Asian Women's Centre",
+		"name":"South Asian Women's Centre",
+		"category":"Social",
+		"description":"The Centre is a place where South Asian Women of all backgrounds and ages can access a variety of programs and services. We strive to provide an environment where women can work together to promote their well-being. Their primary focus is to increase women’s awareness of themselves and assist them to develop their full potential by increasing their economic, social, and political standing in society.",
+		"founder":"Kripa Sekhar",
+		"url":"",
+		"posterImage":"assets/images/SAWC.png"
+	},
+
+	{
+		"id":"Studio Kohl",
+		"name":"Studio Kohl",
+		"category":"Design",
+		"description":"An award-winning boutique design house based in Mumbai. We build visual languages that define brands, and craft meaningful images informed by an involved and thorough understanding of content. ",
+		"founder":"Mira F Malhota",
+		"url":"https://studiokohl.com/",
+		"posterImage":"assets/images/KOHL.png"
+	},
+
+	{
+		"id":"TechGirls Canada",
+		"name":"TechGirls Canada",
+		"category":"STEM",
+		"description":"We are a national not-for-profit organization conducting social and scientific research in the area of women's labour market participation in STEM fields. We collaborate with artists and communities to present our findings in beautiful, accessible, and compelling ways.",
+		"founder":"Saadia Muzaffar ",
+		"url":"",
+		"posterImage":"assets/images/TGC.png"
+	},
+
+	{
+		"id":"Varana Design Ltd",
+		"name":"Varana Design Ltd",
+		"category":"Fashion",
+		"description":"Varana is an international fashion house that combines exceptional craftsmanship and textile savoir-faire with the clean lines and refined cuts of modern design.",
+		"founder":"Sujata Keshavan & Meeta Malhotra",
+		"url":"",
+		"posterImage":"assets/images/varana.png"
+	},
+
+	{
+		"id":"Warp",
+		"name":"Warp",
+		"category":"Fashion",
+		"description":"Warp challenges tradition by creating high-quality geometric handbags and minimalist accessories hand-crafted in Lahore, Pakistan. They blend innovative design methods with traditional craftsmanship, catering to people who appreciate non-conformist aesthetics while promoting high-end leather accessory manufacturing in Pakistan.",
+		"founder":"Hirra Babar",
+		"url":"https://warp-online.com/?sscid=31k8_sxe48&",
+		"posterImage":"assets/images/warp.png"
+	},
+
+	{
+		"id":"Zohra Rahman",
+		"name":"Zohra Rahman",
+		"category":"Fashion",
+		"description":"Lahore-based jewelry designer Zohra Rahman’s ethical jewelry label focuses on reinterpreting traditional silversmithing techniques. Rahman personally trains each artisan in her workshop, fostering innovative and experimental forms of adornment while equipping the local community with specialized skills.",
+		"founder":"Zohra Rahman",
+		"url":"https://zohrarahman.com/",
+		"posterImage":"assets/images/zohra.png"
+	}
+]

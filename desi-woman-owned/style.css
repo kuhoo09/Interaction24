@@ -4,43 +4,111 @@ body{
     height: 100vh;
 }
 
-#draggable-img {
-    position: absolute;
-    left: 0;
-    top: 0;
-    cursor: pointer;
-}
 
 h1{
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
     font-size: 3rem;
     color: antiquewhite;
-    margin-top: 50vh;
     line-height: 40px;
     text-align: center;
     z-index: 1;
-    margin-bottom: 3%;
+    position: fixed;
+    justify-content: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
  
 }
 
-.img1{
-    position: fixed;
-    max-width: 25vw;
-    rotate: 15deg;
+img{
+    position: absolute;
+    max-width: 35vw;
     z-index: 2;
 }
 
-li
-    { 
-      position:  absolute;
-      left: 0;
-      top: 0; 
-      width: 200px; 
+
+.image1{
+    position: fixed;
+   margin-top: -25vh;
+   margin-left: 30vw;
+   rotate: 15deg;
+}
+
+.image2{
+    position: fixed;
+    margin-top: -0vh;
+    margin-left: 60vw;
+    max-width: 60vw;
+    max-width: 15vw;
+}
+
+.image3{
+    position: fixed;
+    margin-top: 8.5vh;
+    margin-left: 8vw;
     }
 
+.image4{
+        position: fixed;
+        margin-top: 53.5vh;
+        margin-right: 130vw;
+        
+        }
+.image5{
+            position: fixed;
+            margin-top: 60.5vh;
+            margin-left: 75vw;
+            rotate: 65deg;
+            }
+            
+.image6{
+position: fixed;
+margin-top: 0.5vh;
+margin-left: 1svw;
+rotate: -15deg;
+}            
+
+.image7{
+    position: fixed;
+    margin-top: 23.5vh;
+    margin-left: 1vw;
+    rotate: 15deg;
+    }   
+
+    .image8{
+        position: fixed;
+        margin-top: 33.5vh;
+        margin-left: 80vw;
+        rotate: 15deg;
+        }   
+
+.image9{
+            position: fixed;
+            margin-top: .5vh;
+            margin-left: 2vw;
+            rotate: 15deg;
+            }
+
+.image10{
+position: fixed;
+margin-top: 65vh;
+margin-left: 35vw;
+rotate: 15deg;
+}   
+
+.image11{
+    position: fixed;
+    margin-top: 5vh;
+    margin-left: 70vw;
+    }   
+    
+   
+    
+
+
     .button {
-        position: absolute;
         color: rgb(163, 128, 110);
         font-family: monospace;
         background-color: bisque; 
@@ -53,7 +121,22 @@ li
         font-size: 16px;
         cursor: pointer;
         border-radius: 15px;
-        top: 58%;
+        position: fixed;
+        top: 60%;
         left: 50%;
         transform: translate(-50%, -50%);
+        z-index: 1;
+    }
+
+    @media (max-width: 850px) 
+    {
+        .image1{
+         margin-top:30vh ;
+        }
+
+        .image12{
+            margin-bottom:20vh ;
+            margin-top: 20vh;
+           }
+
     }

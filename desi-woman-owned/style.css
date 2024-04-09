@@ -1,7 +1,5 @@
 body{
     background-color: rgb(70, 45, 45);
-    width: 100vw;
-    height: 100vh;
 }
 
 
@@ -23,7 +21,7 @@ h1{
 }
 
 img{
-    position: absolute;
+    position: fixed;
     max-width: 35vw;
     z-index: 2;
 }
@@ -131,12 +129,26 @@ rotate: 15deg;
     @media (max-width: 850px) 
     {
         .image1{
-         margin-top:30vh ;
+         margin-top:10vh ;
         }
 
         .image12{
             margin-bottom:20vh ;
             margin-top: 20vh;
            }
+
+    .button{
+        margin-top: 5%;
+    }
+
+    }
+
+
+    @media (max-width: 490px) 
+    {
+  
+    .button{
+        margin-top: 8%;
+    }
 
     }

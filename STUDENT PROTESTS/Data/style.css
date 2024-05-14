@@ -1,0 +1,213 @@
+/* Just to make the demo easier to work with. */
+
+::selection {
+    background-color: #b7745b; /* Change to your desired color */
+}
+
+:root {
+	--spacing: 1em;
+}
+
+@font-face {
+    font-family: 'jetbrains';
+    src: url('assets/JetBrainsMono-Regular.woff2') format('woff');
+}
+
+body {
+	background-color: rgb(235, 209, 193);
+	font-weight: 100;
+	line-height: 1.2;
+	padding: 1.7%;
+	cursor: pointer;
+}
+
+h1 {
+	color: rgb(52, 40, 40);
+	font-family: "kohinoor-bangla";
+	font-size: 300%;
+	font-weight: 800;
+}
+
+h1:hover{
+
+text-decoration: underline;
+transform: rotate(-2.5deg);
+  }
+
+  
+h2{
+	color: rgb(52, 40, 40);
+	font-family:  monospace;
+	padding-top: .5%;
+	font-size: 1.5vw;
+	font-weight: 300;
+}
+
+p{
+	font-family:monospace;
+	font-weight: 200;
+}
+
+ul {
+	display: grid;
+	grid-template-columns: 3fr 3fr;
+	gap: 1.75%;
+	row-gap: .5%;
+	margin-top: 2%;
+	list-style: none;
+}
+
+li {
+	display: flex;
+	flex-direction: column;
+	gap: var(--spacing);
+}
+
+li:hover{
+	transform: rotate(-2.5deg);
+}
+
+summary {
+	cursor: pointer;
+}
+
+.list-item {
+	position: relative;
+	border: 1px solid  rgb(91, 78, 71);
+}
+
+.list-item-image {
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+}
+
+
+.list-item-content {
+	background-color: rgb(52, 40, 40);
+	color: rgb(244, 236, 236);
+	position: absolute;
+	padding: 2vw 2.5vw;
+	font-size: 1.2vw;
+	line-height: 160%;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	gap: 10px;
+	flex-direction: column;
+	justify-content: center;
+	opacity: 0;
+	transition: opacity.2s;
+}
+
+.list-item.is-active .list-item-content {
+	opacity: 1;
+}
+
+.filters {
+	font-family: monospace;
+	width: 100%;
+	margin-top: 2.5%;
+	margin-left: 0px;
+	display: flex;
+	justify-content: right;
+	gap: 5px;
+}
+
+.filter-item {
+	border: 1px solid  rgb(52, 40, 40);
+	border-radius: 3px;
+	padding: 10px 15px;
+	transition: background-color .2s, color .2s;
+	cursor: pointer;
+}
+
+.filter-item:hover,
+.filter-item.is-active {
+	background-color: rgb(52, 40, 40);
+	color: white;
+	transform: rotate(-10deg);
+}
+
+.is-hidden {
+	display: none;
+}
+
+@media (max-width: 970px) 
+{
+
+h2{
+	padding-bottom: 5px;
+}
+h1{
+	padding-bottom: 5px;
+}
+}
+
+@media (max-width: 880px) 
+{
+
+h2{
+	font-size: 2.5vw;
+
+}
+
+ul {
+		grid-template-columns: 1fr;
+		margin-top: 5%;
+		row-gap: .2%;
+	
+	}
+.list-item-content {
+	font-size: 2vw;
+	padding-left: 5vw;
+	padding-right: 5vw;
+}
+
+}
+
+@media (max-width: 600px) {
+
+h2{
+	font-size: 2.5vw;
+}
+	.filters {
+		margin-top: 8%;		
+		transform: none;
+	}
+
+	.filter-item {
+		padding: 1vw 1.5vw;
+		font-size: Min(3vw, 18px);
+	}
+
+	ul {
+		margin-top: 5%;
+		row-gap: .2%;
+	}
+
+
+}
+
+@media (max-width: 461px) {
+
+h1{
+	width: 60vw;
+	line-height: 40px;
+	padding-bottom: 5px;
+}
+
+h2{
+	font-size: 3vw;
+	width: 45vw;
+	padding-bottom: -2%;
+}
+
+ul {
+	margin-top: 5%;
+	gap: .2%;
+}
+
+}

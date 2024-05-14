@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Treemap Visualization</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+  <style>
+    /* Add CSS styles for the treemap container */
+    #treemap-container {
+      width: 100%;
+      height: 100vh;
+      position: relative;
+    }
+  </style>
+</head>
+<body>
+  <!-- Container for the treemap visualization -->
+  <div id="treemap-container"></div>
+
+  <!-- Include D3.js library -->
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+
+  <script>
+    // Sample data with categories and values (you can replace it with your own data)
+    const data = [
+      { name: 'Abortion', value: 100 },
+      { name: 'Accessibility', value: 80 },
+      { name: 'Accessibility', value: 80 },
+      { name: 'Accessibility', value: 80 },
+      { name: 'Accessibility', value: 80 },
+      { name: 'Accessibility', value: 80 },
+      { name: 'Accessibility', value: 80 },
+      { name: 'Accessibility', value: 80 },
+      { name: 'Accessibility', value: 80 },
+      { name: 'Accessibility', value: 80 },
+      { name: 'Accessibility', value: 80 },
+         { name: 'Accessibility', value: 80 },
+    
+    ];
+
+    // Define color scale for categories
+    const colorScale = d3.scaleOrdinal()
+      .domain(data.map(d => d.name))
+      .range(d3.schemeCategory10); // You can use a different color scheme if needed
+
+    // Create treemap layout
+    const treemap = d3.treemap()
+      .size([window.innerWidth, window.innerHeight]) // Adjust to fit the screen size
+      .padding(1);
+
+    // Create SVG element for treemap
+    const svg = d3.select('#treemap-container')
+      .append('svg')
+      .attr('width', '100%')
+      .attr('height', '100%');
+
+    // Convert data to hierarchical format
+    const root = d3.hierarchy({ children: data })
+      .sum(d => d.value);
+
+    // Generate treemap layout
+    treemap(root);
+
+    // Append rectangles for each category
+    svg.selectAll('rect')
+      .data(root.leaves())
+      .enter()
+      .append('rect')
+      .attr('x', d => d.x0)
+      .attr('y', d => d.y0)
+      .attr('width', d => d.x1 - d.x0)
+      .attr('height', d => d.y1 - d.y0)
+      .attr('fill', d => colorScale(d.data.name));
+
+    // Add text labels
+    svg.selectAll('text')
+      .data(root.leaves())
+      .enter()
+      .append('text')
+      .attr('x', d => (d.x0 + d.x1) / 2)
+      .attr('y', d => (d.y0 + d.y1) / 2)
+      .attr('dy', '0.35em')
+      .attr('text-anchor', 'middle')
+      .text(d => d.data.name);
+  </script>
+</body>
+</html>

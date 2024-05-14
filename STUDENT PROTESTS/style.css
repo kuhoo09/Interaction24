@@ -1,0 +1,44 @@
+
+
+h1{
+color: #7F0F0F;
+font-family: rowdies;
+font-size: 850%;
+font-style: normal;
+font-weight: 400;
+line-height: 89.833%; 
+width: 1000px;
+margin-top: 45vh;
+margin-left: 5%;
+position: fixed;
+}
+
+h2{
+font-size: 20px;    
+font-family: "neue-haas-grotesk-display", sans-serif;
+font-weight: 500;
+font-style: normal;
+color: #7F0F0F;
+text-align: right;
+margin-top: 65vh;
+margin-left: 80%;
+position: fixed;
+width: 191px;
+height: 226px;
+flex-shrink: 0;
+}
+
+h3{
+    font-size: 20px;    
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #7F0F0F;
+    text-align: right;
+    margin-top: 80vh;
+    margin-left: 80%;
+    position: fixed;
+    width: 191px;
+    height: 226px;
+    flex-shrink: 0;
+    }
